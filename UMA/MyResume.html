@@ -1,51 +1,163 @@
 <!DOCTYPE html>
 <html><head>
       <style>
-           div.gallery {
-  margin: 5px;
-  
-  float: left;
-  width: 40%;
-  height: 100%;
-  
+           
+           
+        div {
+          height: 200px;
+          width: 200px;
+         border:tomato;
+        }
+        
+        
+           * {
+  max-width: 700px;
+  margin: auto;
 }
 
 
+/*body {
+    min-width: 500px;
+}*/
 
-.gallery {
-            max-width: 400%;
-            padding: 0 10px;
-            height: 540px;
-        }
-  
-        
+div {
+  border-radius: 5px;
+}
 
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #ffcccc;
+  position: fixed;
+  z-index: 1;
+}
 
+#title {
+  margin-left: 3%;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  clear: both;
+  position: relative;
+}
+
+.left {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: left;
+  position: fixed;
+}
+
+.right {
+  height: 1000px;
+  width: 45px;
+  background-color: #e0eeee;
+  float: right;
+  position: inherit;
+}
+
+.stuff {
+  display: inline-block;
+  margin-top: 6px;
+  margin-left: 55px;
+  width: 75%;
+  height: 1000px;
+}
+
+p,
+li {
+  font-family: 'Cormorant Garamond';
+}
+
+.head {
+  font-size: 20px;
+}
+
+#name {
+  font-family: Sacramento;
+  float: right;
+  margin-top: 10px;
+  margin-right: 4%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 430px) {
+  .left,
+  .right {
+    display: none;
+  }
+  .stuff {
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+   
             </style>
 </head>
-
-
 <body>
-
-
-<h1><center>RESUME</center></h1>
-<div class="gallery">
-  
-    <img src="profile.jpg" alt="Profile" width="600" height="400">
-         
-      </div>
       
-      <div >
-            <p><h3>OBJECTIVE</h3></p> 
-            <p><ul><li>To secure a challenging position in a reputable organization to expand my learnings, knowledge, and skills.</li>
-                <li>Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.
-                      </li></ul>
-                </p> 
-                <br>
-                <br>
 
+          <div id="header"></div>
+<div class="left"></div>
 
-     </div>
-<p></p>
-</bodygit>
+          <div class="stuff">
+            <br><br>
+            <div>
+                  <img src="profile1.png" 
+                       style="object-fit:contain;
+                            width:100%;
+                            height:100%;
+                            border: solid 1px #CCC"/>
+                </div>
+            <h1>Resume</h1>
+            <h2>UmaMageswari</h2>
+            <hr />
+            <br>
+            <p class="head">Interests</p>
+            <ul>
+              <li>Drawing</li>
+               <li>Design</li>
+              <li>Programming</li>
+              <li>Computer Science</li>
+            </ul>
+            <p class="head">Skills</p>
+            <ul>
+              <li>Web Design with HTML & CSS</li>
+            </ul>
+            <p class="head">Education</p>
+            <ul>
+             
+                <li>Shrimati Indira Gandhi College-BCA</li>
+              
+              <!--Link-->
+              
+                <li>Seethalakshmi Ramaswamy College-MCA</li>
+              
+             
+            </ul>
+            <p class="head">Experience</p>
+            <ul>
+              <li>Trinay Tech Trichy</li>
+              <li>Software Programmer</li>
+            </ul>
+            <p class="head">Extracurriculars</p>
+            <ul>
+              <li>Cooking</li>
+              <li>Gardening</li>
+              <li>Music</li>
+            </ul>
+          </div>
+          <div class="right"></div>
+          <div id="footer">
+            <h2 id="name">UmaMageswari</h2></div>
+            </div>
+</body>
 </html>
