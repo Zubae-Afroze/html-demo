@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.main-wrap {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./img/hero.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.content-wrap {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-wrap header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-wrap img {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+}
+
+.nav-wrap ul {
+  display: flex;
+  margin-top: 55px;
+}
+
+.nav-wrap ul li {
+  list-style: none;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+.nav-wrap ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+}
+
+.nav-wrap ul li a:hover {
+  border-bottom: 2px solid #e67e22;
+}

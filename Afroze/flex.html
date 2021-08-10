@@ -9,36 +9,37 @@
                 padding: 0;
                 box-sizing: border-box;
             }
-            .flex-wrap {
+            .flex-warp {
                 height: 100vh;
                 display: flex;
-                flex-direction: row;
+                justify-content: space-between;
+                align-items: stretch;
+            }
+            .child-class {
+                height: 100px;
+                width: 100px;
+                border: solid 1px #000;
+                display: flex;
                 justify-content: center;
                 align-items: center;
-                flex-wrap: wrap;
             }
-            .element {
-                border: 1px solid #000;
-                height: 200px;
-                width: 200px;
-                display: flex;
-                justify-content: center; 
-                align-items: center; 
+            .test {
+                justify-content: flex-end;
             }
         </style>
     </head>
     <body>
         <!--Flexbox-->
-        <div class="flex-wrap">
-            <div class="element">content 1</div>
-            <div class="element">content 2</div>
-            <div class="element">content 3</div>
-            <div class="element">content 4</div>
-            <div class="element">content 5</div>
-            <div class="element">content 1</div>
-            <div class="element">content 2</div>
-            <div class="element">content 3</div>
-            <div class="element">content 4</div>
+        <div class="flex-warp">
+            <div class="child-class test">content 1</div>
+            <div class="child-class">content 2</div>
+            <div class="child-class">content 3</div>
+            <div class="child-class">content 4</div>
+            <div class="child-class">content 5</div>
+            <div class="child-class test">content 6</div>
+            <div class="child-class">content 7</div>
+            <div class="child-class">content 8</div>
+            <div class="child-class">content 9</div>
         </div>
     </body>
 </html>
