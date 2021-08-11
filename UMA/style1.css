@@ -1,0 +1,49 @@
+html,
+body{
+    margin:0px;
+    padding:0px;
+}
+.main-content {
+    height: 100vh;
+    background-image:  url("FoodBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .content-wrap {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-wrap header {
+    display: flex;
+    
+  }
+  
+  .logo-wrap img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  .nav-wrap ul {
+display: flex;
+    margin-top: 55px;
+  } 
+  
+  .nav-wrap ul li {
+    list-style: none;
+   
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  .nav-wrap ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 8px ;
+  }
+  
+  .nav-wrap ul li a:hover {
+    border-bottom: 2px solid #e67e22;
+  }
