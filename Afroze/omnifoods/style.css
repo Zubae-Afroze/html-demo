@@ -6,49 +6,87 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
-.main-wrap {
-  height: 100vh;
+.bg__main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(./img/hero.jpg);
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
-.content-wrap {
+.header-wrap {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.content-wrap header {
+header {
   display: flex;
   justify-content: space-between;
 }
 
-.logo-wrap img {
-  height: 100px;
+.header__logo-wrap img {
   width: 100px;
+  height: 100px;
   margin-top: 20px;
 }
 
-.nav-wrap ul {
+.header__nav-wrap ul {
   display: flex;
-  margin-top: 55px;
+  margin-top: 20px;
 }
 
-.nav-wrap ul li {
+.header__nav-wrap ul li {
   list-style: none;
   margin-left: 40px;
-  text-transform: uppercase;
 }
 
-.nav-wrap ul li a {
+.header__nav-wrap ul li a {
   text-decoration: none;
   color: #fff;
-  padding: 8px 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 100;
+  padding-bottom: 10px;
 }
 
-.nav-wrap ul li a:hover {
+.header__nav-wrap ul li a:hover {
   border-bottom: 2px solid #e67e22;
+}
+
+.landing__wrap {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.landing__fix h2 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.landing__fix button {
+  background-color: #e67e22;
+  border: 1px solid #e67e22;
+  padding: 10px 30px;
+  border-radius: 100px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-trans {
+  background-color: transparent !important;
+  color: #e67e22 !important;
+}
+
+.btn-trans:hover {
+  background-color: #a55916 !important;
+  color: #fff !important;
+}
+
+.landing__fix button:hover {
+  background-color: #a55916;
+  /* transition: all ease-in 0.5s; */
+  border: 1px solid #a55916;
 }
