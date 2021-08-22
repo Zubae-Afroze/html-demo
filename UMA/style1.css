@@ -43,7 +43,27 @@ display: flex;
     color: rgb(255, 255, 255);
     padding: 8px ;
   }
-  
   .nav-wrap ul li a:hover {
     border-bottom: 2px solid #e67e22;
   }
+  .nav-wrap ul li a:hover {
+    border-bottom: 2px solid #e67e22;
+  }
+  .nav-wrap1 ul {
+    display: flex;
+    margin-top: 75px;
+    width: 600px;
+  }  /* .nav-wrap1 ul {
+    display: flex;
+        margin-top: 55px;
+        justify-content: flex-end;
+      } 
+      
+      .nav-wrap1 ul li {
+        list-style: square;
+       
+        text-transform: uppercase;
+        margin-top: 20px;
+      }
+       */
+      
