@@ -153,4 +153,16 @@
     font-weight: 300;
     text-transform: uppercase;
   }
-  
+  .meals-wrap {
+    padding: 0;
+}
+meals-list {
+  list-style: none;
+  width: 100%;
+}
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
