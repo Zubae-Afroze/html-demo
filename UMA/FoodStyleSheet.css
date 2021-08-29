@@ -29,7 +29,7 @@
     }
   .bgmain {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(.Images/hero.jpg);
+    url(Images/hero.jpg);
     background-size: cover;
     background-position: center;
     background-size: cover;
@@ -104,3 +104,53 @@
     /* transition: all ease-in 0.5s; */
     border: 1px solid #a55916;
   }
+  /*About Section*/
+
+  .aboutwrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: white;
+  }
+  
+  .aboutmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    width: 100px;
+    border-bottom: 2px solid #e67e22;
+  }
+  .aboutheader h2 {
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+  .aboutdesc {
+    width: 55%;
+    margin-bottom: 30px;
+  }
+  
+  .aboutdesc p {
+    text-align: justify;
+  }
+  .about-block-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-block-main {
+    margin: 0px 20px;
+    margin-bottom: 20px;
+  }
+  
+  .about-block-icon {
+    color: #e67e22;
+    font-size: 30px;
+  }
+  
+  .about-block-head h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
