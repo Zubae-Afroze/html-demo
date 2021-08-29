@@ -155,14 +155,28 @@
   }
   .meals-wrap {
     padding: 0;
+    display: flex;
+    width:100%;
+    
 }
 .meals-list {
   list-style: none;
   width: 100%;
+  display: flex;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .meal-photo {
   width: 100%;
   margin: 0;
   overflow: hidden;
   background-color: #000;
+  transition: transform 1s, filter 2s ease-in;
+  filter: brightness(2px);
+  transform: scale(1.1);
+ 
+}
+.meal-photo:hover{
+  filter: blur(0);
+  transform: scale(1);
 }
