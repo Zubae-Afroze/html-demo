@@ -107,6 +107,7 @@
   /*About Section*/
 
   .aboutwrap {
+    padding: 0 2%;
     max-width: 1140px;
     margin: 0 auto;
     background-color: white;
