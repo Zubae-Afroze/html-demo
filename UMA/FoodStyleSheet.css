@@ -155,27 +155,21 @@
     text-transform: uppercase;
   }
   .meals-wrap {
-    padding: 0;
+   
     display: flex;
-    width:100%;
-    
+    flex-wrap: wrap;
 }
-.meals-list {
-  list-style: none;
-  width: 100%;
-  display: flex;
-  padding-left: 0px;
-  padding-right: 0px;
-}
+
 .meal-photo {
-  width: 100%;
-  margin: 0;
-  overflow: hidden;
-  background-color: #000;
-  transition: all .2s ease-in; 
+  width: 25%;
+  height: auto;
+  
+  /* transform-origin: 50% 65%;
+  transition: transform 5s, filter 3s ease-in-out;
+  filter: brightness(150%); */
  
 }
-.meal-photo:hover{
- 
-  transform: scale(1.1);
+.meal-photo-img{
+  
+
 }
